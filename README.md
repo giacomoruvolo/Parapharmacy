@@ -2,8 +2,6 @@
 ## Parapharmacy 
 > Homework 1, corso di Web Programming a.a. 2020-2021
 
-> Website: https://giacomoruvolo.github.io/mhw3/home.html
-
 ## Specifiche di progetto
 Si vuole realizzare un sito web per la gestione di svariate parafarmacie. Con l'Homework 1 si implementa:
 
