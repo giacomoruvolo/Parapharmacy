@@ -1,0 +1,190 @@
+body{
+    
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 16px;
+    background-image: url("img/header-background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width: 800px) {
+    body {
+      font-size: 0.6em;
+      background-repeat: no-repeat;
+    }
+  }
+
+
+  .overlay{        
+    position: absolute;
+    z-index: -1;
+ 
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+ 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+section{
+
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+  min-height: 100vh;
+    
+  font-style: italic;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2em;
+  color:#3052fc;
+  font-weight: 900;
+
+}
+
+@media (max-width: 800px) {
+
+  section{
+      
+    font-size: 1.7em;
+    min-height: 90vh;
+    margin-top: 30px;
+
+  }
+
+} 
+  
+
+
+
+#boxsignup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border: 3px solid #d108f6;
+  
+  padding: 150px;
+  height: 12vh;
+  width: 20%;
+  
+  border-radius: 80px;
+  font-size: 0.7em;
+  
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  
+  
+
+}
+
+@media (max-width: 800px) {
+
+  #boxsignup{
+      font-size: 1.05em;
+      height: 20vh;
+      width: 8%;
+      padding: 140px;
+
+      
+
+  }
+
+  
+  
+}
+
+.overlay-inside{        
+  position: absolute;
+  z-index: -1;
+  border-radius: 80px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+#logo{
+
+display: flex;
+height: 15vh;
+width: 50vh;
+
+
+}
+
+#imglogo{
+margin-top: 4vh;
+height: 15vh;
+width: 50vh;
+position: absolute;
+top: 15px;
+}
+
+
+
+@media (max-width: 800px) {
+    
+  #logo{
+
+    height: 10vh;
+    width: 37vh;
+
+  }
+  
+  #imglogo{
+
+    height: 10vh;
+    width: 37vh;
+
+    }
+}
+
+.error{
+  margin-top: 20px;
+  margin-bottom: -15px;
+  font-size: 13px;
+  color: #d108f6;
+  width: 300px;
+  
+
+}
+
+.error2{
+  margin-top: -7px;
+  font-size: 13px;
+  color: #d108f6;
+  width: 300px;
+  
+
+}
+
+
+form{
+
+  margin-top: 20px;
+
+}
+
+.signup{
+
+
+  margin-top: -10px;
+
+}
