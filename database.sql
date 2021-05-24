@@ -1,6 +1,6 @@
-drop database if exists Parafarmacia;
-create database Parafarmacia;
-use Parafarmacia;
+drop database if exists Parapharmacy;
+create database Parapharmacy;
+use Parapharmacy;
 
 create table parafarmacia
 (
