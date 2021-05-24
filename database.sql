@@ -1,3 +1,7 @@
+drop database if exists Parafarmacia;
+create database Parafarmacia;
+use Parafarmacia;
+
 create table parafarmacia
 (
 
