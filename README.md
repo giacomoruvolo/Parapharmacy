@@ -1,6 +1,5 @@
 ## Parapharmacy 
 > Progetto corso di Web Programming a.a. 2020-2021
-> Slides: https://giacomoruvolo.github.io/parapharmacy/slides
 
 ## Specifiche di progetto
 
